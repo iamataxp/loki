@@ -42,10 +42,6 @@
         alert("登录成功！");
 
       },
-      register(){
-        alert("注册账号")
-      }
-
     }
 
 
@@ -62,11 +58,6 @@
     background: #fff;
     border: 1px solid #eaeaea;
     box-shadow: 0 0 25px #cac6c6;
-  }
-  .login_title {
-    margin: 0px auto 40px auto;
-    text-align: center;
-    color: #505458;
   }
   .login_remember {
     margin: 0px 0px 12px 0px;
