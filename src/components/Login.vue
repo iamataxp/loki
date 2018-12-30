@@ -31,16 +31,21 @@
                 password:[{required:true, message:"请输入密码",trigger:'blur'}]},
         loading: false,
         loginForm: {
-          account: "",
-          password: ""
+          account: "admin",
+          password: "123"
         },
         checked:true,
       }
     },
     methods: {
       submitForm(loginForm) {
-        alert("登录成功！");
-
+        this.$store.commit('login',   {
+          name: 'admin',
+            userface: '',
+            username: 'admin',
+            roles: ''
+        },);
+        this.$router.replace({name:'home'});
       },
     }
 
