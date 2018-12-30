@@ -53,9 +53,6 @@
 </script>
 
 <style>
-.login_bgr{
-  background: url("../assets/bgr.jpg");
-}
   .login_container {
     border-radius: 15px;
     background-clip: padding-box;
