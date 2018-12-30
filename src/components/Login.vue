@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <!--<h1 class="title">工程造价材料查询系统</h1>-->
-    <img src="../assets/title.png"/>
+  <div class="login-wrap">
+    <h1 class="title">工程造价材料查询系统</h1>
+    <!--<img src="../assets/title1.png" style=" alignment: center;margin-top: 50px;margin-left: 200px"/>-->
     <el-form :rules="rules" v-loading="loading" class="login_container" :model="loginForm"  >
       <el-form-item  prop="account">
         <el-input icon="el-icon-search" v-model="loginForm.account">
@@ -52,8 +52,9 @@
   .login_container {
     border-radius: 15px;
     background-clip: padding-box;
-    margin: 80px auto;
+    margin: 50px auto;
     width: 350px;
+    height: 100%;
     padding: 35px 35px 15px 35px;
     background: #fff;
     border: 1px solid #eaeaea;
@@ -67,6 +68,19 @@
   .title {
     margin: 0px 0px 0px 0px;
     text-align: center;
-    color: #505458;
+    color: #fff;
+    padding-top: 60px;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+  }
+
+  .login-wrap{
+    position: relative;
+    width:100%;
+    height:100%;
+    min-height: 100vh;
+    background-image: url("../assets/bgr.jpg");
+    background-size:100% 100%;
+
   }
 </style>
