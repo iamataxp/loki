@@ -14,7 +14,7 @@ export default new Router({
     },
     {
       path: '/home',
-      name: 'home',
+      name: '主页',
       component: Home,
       hidden: true,
       meta: {

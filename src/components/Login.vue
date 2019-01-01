@@ -45,7 +45,7 @@
             username: 'admin',
             roles: ''
         },);
-        this.$router.replace({name:'home'});
+        this.$router.replace({name:'主页'});
       },
     }
 
