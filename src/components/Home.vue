@@ -4,7 +4,7 @@
       <el-header class="home-header">
         <span class="home_title" style=" font-family: 'Avenir', Helvetica, Arial, sans-serif;">工程造价材料查询系统</span>
         <div >
-          <el-badge  style="margin-right: 30px"  :value="2" >
+          <el-badge  style="margin-right: 30px"  :value="2"  >
             <i class="el-icon-message"  style="cursor: pointer;color:#fff;font-size: 24px" ></i>
           </el-badge>
           <el-dropdown trigger="click" @command="handleCommand" style="margin-right: 200px">
